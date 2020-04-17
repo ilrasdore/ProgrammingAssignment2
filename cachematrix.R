@@ -5,10 +5,10 @@
 
 ## the first function creates a special "matrix", which is a list
 ## containing a function to
-##   - set the value of the matrix
-##   - get the value of the matrix
-##   - set the value of the inverse matrix
-##   - get the value of the inverse matrix
+##  set - set the value of the matrix
+##  get - get the value of the matrix
+##  setmatrix - set the value of the inverse matrix
+##  getmatrix - get the value of the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     mat<-NULL
